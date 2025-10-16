@@ -7,16 +7,11 @@
 
 .kartu-profil {
     width: 300px;
+    /* perbaikan 2: mengganti 'wargin' menjadi 'margin' */
     margin: 50px auto; /* 50px jarak/bawah, auto menengahkan kiri/kanan */
-    
-    /* 🛠️ PERBAIKAN 1: Tambahkan titik koma yang hilang */
     padding: 20px; 
-    
     background-color: white;
-    
-    /* 🛠️ PERBAIKAN 2: Tambahkan titik koma yang hilang */
     border-radius: 15px; /* Membuat sudut menjadi melengkung */ 
-    
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
     text-align: center; /* Menengahkan semua text di dalam kartu */
 }
