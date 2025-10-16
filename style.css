@@ -1,17 +1,22 @@
-body {
+ {
     background-color: #FFFFE0; /* Warna kuning cerah */
-    /* perbaikan 1: menambahkan titik koma (;) yang hilang */
+    /* Pastikan tidak ada properti di atas ini yang tidak ditutup! */ 
     font-family: Arial, sans-serif;
     color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
 .kartu-profil {
     width: 300px;
-    /* perbaikan 2: mengganti 'wargin' menjadi 'marggin' */
     margin: 50px auto; /* 50px jarak/bawah, auto menengahkan kiri/kanan */
-    padding: 20px
+    
+    /* 🛠️ PERBAIKAN 1: Tambahkan titik koma yang hilang */
+    padding: 20px; 
+    
     background-color: white;
-    border-radius: 15px /* Membuat sudut menjadi melengkung */
+    
+    /* 🛠️ PERBAIKAN 2: Tambahkan titik koma yang hilang */
+    border-radius: 15px; /* Membuat sudut menjadi melengkung */ 
+    
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
     text-align: center; /* Menengahkan semua text di dalam kartu */
 }
