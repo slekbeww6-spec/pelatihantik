@@ -4,7 +4,8 @@ body {
     color: #191970; 
 }
 
-.Kartu-profil {
+/* Perubahan nama kelas di sini */
+.kartu-profil {
     width: 300px;
     margin: 50px auto; 
     padding: 20px;
@@ -15,7 +16,8 @@ body {
 }
 
 
-.Kartu-profil img {
+/* Perubahan nama kelas di sini */
+.kartu-profil img {
     width: 150px;
     border-radius: 50%;
 }
