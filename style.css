@@ -1,11 +1,13 @@
 body {
     background-color: #FFFFE0; /* Warna kuning cerah */
+    /* perbaikan 1: menambahkan titik koma (;) yang hilang */
     font-family: Arial, sans-serif;
     color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
 .kartu-profil {
     width: 300px;
+    /* perbaikan 2: mengganti 'wargin' menjadi 'marggin' */
     margin: 50px auto; /* 50px jarak/bawah, auto menengahkan kiri/kanan */
     padding: 20px
     background-color: white;
